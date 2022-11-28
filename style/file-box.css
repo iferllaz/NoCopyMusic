@@ -1,0 +1,58 @@
+.file-box{
+    border: solid 1px #474648;
+    display: flex;
+    color: white;
+    padding: 1%;
+    overflow: hidden;
+}
+.file-img-box{
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.file-img{    
+    width: 100%;
+    height: auto;   
+}
+.like-save{
+    display: flex;
+    justify-content: flex-end;
+}
+.like-box{
+    display: flex;
+    width: 23px;
+    height: 20px;;
+}
+.like-icon{
+    width: -webkit-fill-available;
+    height: auto;
+    margin-left: 3%;
+}
+.file-info-box{
+    width: -webkit-fill-available;
+}
+.options-box{
+    color: white;
+    margin: 1%;
+}
+.file-name{
+    font-weight: 500;
+}
+.file-owner{
+    font-size: small;
+    color: rgb(216, 214, 214);
+    margin-top: 5px;
+}
+.upload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.icon-upload{
+    align-items: center;
+    width: 60px;
+    height: auto;
+}

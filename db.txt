@@ -1,0 +1,30 @@
+use nocopydb;
+
+db.users.save({username: "julietabebop", pass: "timiteamo", email: "julybopbop@gmail.com"});
+
+db.createUser({ user: "ncadmin", pwd: "123123", roles: [{ role: "readWrite", db: "nocopydb"}]});
+
+mongo -u ncadmin -p 123123 --authenticationDatabase nocopydb
+
+___________________________________________________________________________________________________
+use images;
+
+db.fs.chunks.save({
+    "_id" : <ObjectId>,
+    "files_id" : <ObjectId>,
+    "n" : <num>,
+    "data" : <binary>
+})
+
+db.fs.files.save({
+    "_id" : <ObjectId>,
+    "length" : <num>,
+    "chunkSize" : <num>,
+    "uploadDate" : <timestamp>,
+    "md5" : <hash>,
+    "filename" : <string>,
+    "contentType" : <string>,
+    "aliases" : <string array>,
+    "metadata" : <any>,
+})
+
