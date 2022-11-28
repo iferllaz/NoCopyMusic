@@ -1,5 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT']."./nocopymusic/vendor/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT']."./ncm/vendor/autoload.php";
+
 class Connection{
     public function connect(){
         try{

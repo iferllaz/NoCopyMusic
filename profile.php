@@ -58,9 +58,9 @@
     // contentBox();
     content2Box();
 ?>
-    <div class="edit" style="align-items: center;">
-        <button type="button" class="btn btn-light"><a href="./crud.php">Add</a></button>
-    </div>
+   <a class="link-light" href="./crud.php">
+                <button class="btn btn-success">Upload</button>
+            </a>
 <?php 
     // loginContent();
     // signupContent();

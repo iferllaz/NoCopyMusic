@@ -1,6 +1,6 @@
 use nocopydb;
 
-db.users.save({username: "julietabebop", pass: "timiteamo", email: "julybopbop@gmail.com"});
+db.users.insertOne({username: "julietabebop", pass: "timiteamo", email: "julybopbop@gmail.com"});
 
 db.createUser({ user: "ncadmin", pwd: "123123", roles: [{ role: "readWrite", db: "nocopydb"}]});
 
