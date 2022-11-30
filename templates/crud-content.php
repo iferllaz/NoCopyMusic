@@ -2,26 +2,25 @@
 function crudContent(){
 ?>
 <div class="container">
-    <form>
+<form action="./crud/upload.php" method="POST">
         <legend>Add your content</legend>
-        <div class="mb-3">
-            <label for="textInput" class="form-label">Name</label>
-            <input type="text" id="textInput" class="form-control" placeholder="Name">
+        <div class="mb-2">
+            <label for="textInput"  class="form-label">Select file</label>
+            <input type="file" name="file" class="form-control" placeholder="File">
+        </div> 
+        <div class="mb-2">
+            <label for="textInput"  class="form-label">Title</label>
+            <input type="text" name="title" class="form-control" placeholder="Title">
         </div>
-        <div class="mb-3">
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Select type</option>
-            <option value="1">Music</option>
-            <option value="2">Video</option>
-            <option value="3">Image</option>
-        </select>
-        </div>
-        
-        <div class="mb-3">
-            <label for="formFile" class="form-label">Seleccione un archivo:</label>
-            <input class="form-control" type="file" id="formFile">
-        </div>    
-        <button type="submit" class="btn btn-primary">Done</button>
+        <div class="mb-2">
+            <label for="textInput"  class="form-label">Select image</label>
+            <input type="file" name="image" class="form-control" placeholder="Image">
+        </div> 
+        <div class="mb-2">
+            <label for="textInput"  class="form-label">Confirm your username</label>
+            <input type="text" name="username" class="form-control" placeholder="Username">
+        </div> 
+        <input type="submit" name="save_content" class="btn btn-primary" value="Upload">   
     </form>
 </div>
 

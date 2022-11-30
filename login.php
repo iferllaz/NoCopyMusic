@@ -1,4 +1,5 @@
 <?php
+    include './db.php';
     include './templates/main-content.php';
     // include './templates/crud-content.php';
     // include './templates/account-content.php';

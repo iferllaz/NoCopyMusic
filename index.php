@@ -1,4 +1,5 @@
 <?php
+    // include './db.php';
     include './templates/main-content.php';
     // include './templates/crud-content.php';
     // include './templates/account-content.php';
@@ -19,9 +20,11 @@
             </div>
         </div>
     </div>
+    <div class="main-content">
+    
 <?php
+    content2Box();
     // profileInfo();
-    contentBox();
     // loginContent();
     // signupContent();
     // aboutUs();

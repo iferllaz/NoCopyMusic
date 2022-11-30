@@ -4,8 +4,11 @@
     // include './templates/account-content.php';
     include './templates/header.php';
 
-    headerContent(); ?>
+    headerContent(); 
+
+    ?>
     <div class="profile_control">
+
         <div class="main-container">
             <div class="profile-info">
                 <div class="user-picture-box">

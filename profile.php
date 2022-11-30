@@ -1,4 +1,5 @@
 <?php
+    include './db.php';
     include './templates/main-content.php';
     // include './templates/crud-content.php';
     // include './templates/account-content.php';
@@ -59,7 +60,7 @@
     content2Box();
 ?>
    <a class="link-light" href="./crud.php">
-                <button class="btn btn-success">Upload</button>
+                <button class="btn btn-primary">Edit content</button>
             </a>
 <?php 
     // loginContent();

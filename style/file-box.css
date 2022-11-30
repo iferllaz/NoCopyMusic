@@ -1,7 +1,7 @@
 .file-box{
     border: solid 1px #474648;
     display: flex;
-    color: white;
+    /* color: white; */
     padding: 1%;
     overflow: hidden;
 }
@@ -33,7 +33,6 @@
     width: -webkit-fill-available;
 }
 .options-box{
-    color: white;
     margin: 1%;
 }
 .file-name{
@@ -41,7 +40,7 @@
 }
 .file-owner{
     font-size: small;
-    color: rgb(216, 214, 214);
+    /* color: rgb(216, 214, 214); */
     margin-top: 5px;
 }
 .upload{
