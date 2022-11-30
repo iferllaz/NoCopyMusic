@@ -9,16 +9,16 @@
 
         echo $file.$title.$username.$image;
 
-        $query = "INSERT INTO userContent(username, title, file, image) VALUES ('$username', '$title', '$file','$image')";
-                        // INSERT INTO `userContent` (`username`, `title`, `file`, `image`) 
-                        // VALUES ('username_ejemplo', 'title_ejemplo', 'file_ejemplo', 'image_ejemplo');
+        // $uery = "INSERT INTO `userContent` (`username`, `title`, `file`, `image`) 
+        // VALUES ('username_ejemplo', 'title_ejemplo', 'file_ejemplo', 'image_ejemplo')";
+        // $query = "INSERT INTO userContent(username, title, file, image) VALUES ('$username', '$title', '$file','$image')";
+                        
         
-        $result = mysqli_query($conn, $query);
-        if(!$result) {
-          die("Query Failed.");
-        }
-        echo "\nSAVED";
+        // $result = mysql_query($conn, $query);
+        // if(!$result) {
+        //   die("Query Failed.");
+        // }
+        // echo "\nSAVED";
     }
-
 
 ?>

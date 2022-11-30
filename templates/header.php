@@ -41,7 +41,7 @@ function headerContent(){ ?>
 }
 function footerContent(){ ?>  
         </div>
-        <footer class="bg-dark">
+        <footer class="bg-light">
                 <div class="bg-gray py-4">
                 <div class="container text-center">
                     <p class="text-muted mb-0 py-2">    

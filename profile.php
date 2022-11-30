@@ -5,8 +5,9 @@
     // include './templates/account-content.php';
     include './templates/header.php';
 
-    headerContent(); ?>
-    <div class="profile_control">
+    headerContent(); 
+        ?>
+        <div class="profile_control">
         <div class="main-container">
             <div class="profile-info">
                 <div class="user-picture-box">
@@ -55,13 +56,17 @@
             </div>
         </div>
     </div>
+
 <?php
-    // contentBox();
     content2Box();
 ?>
-   <a class="link-light" href="./crud.php">
+        <br>
+        <div class="container-content">
+            <a class="link-light" href="./crud.php">
                 <button class="btn btn-primary">Edit content</button>
             </a>
+        </div>
+            
 <?php 
     // loginContent();
     // signupContent();
