@@ -17,15 +17,14 @@ I created NoCopyMusic as a school project to provide a platform for artists to s
 
 ## How to Contribute
 
-If you're interested in contributing to NoCopyMusic, you can:
+If you're interested in contributing to NoCopyMusic, feel free to:
 
-1. Fork this repository.
-2. Tackle the PHP to MongoDB compatibility issue or propose enhancements.
-3. Submit a pull request to merge your modifications into the project.
+1. Tackle the PHP to MongoDB compatibility issue or propose enhancements.
+2. Submit a pull request to merge your modifications into the project.
 
 ## Disclaimer
 
-I'd like to emphasize that the project could get to work correctly due to some compatibility challenges, but I'm sharing it with the intention of serving as a resource of learning from the errors I encountered during my learning process. However, despite the obstacles I issued, it stands as a testament to my learning journey.
+I'd like to emphasize that the project could not succesfully get to work correctly due to some compatibility challenges, but I'm sharing it with the intention of serving as a resource of learning from the errors I encountered during my learning process. However, despite the obstacles I issued, it stands as a testament to my learning journey.
 
 Feel free to explore, learn, and contribute to NoCopyMusic. Your contributions could help make this platform a comfortable space for creative artists.
 
