@@ -2,7 +2,7 @@
 
 ## Overview
 
-I'm excited to introduce NoCopyMusic, a dedicated platform for artists and creators like me to freely share and download music, videos, and images without the worry of copyright constraints. It's a space where anyone can unleash their creativity and connect with like-minded individuals.
+NoCopyMusic is a dedicated platform for artists and creators like me to freely share and download music, videos, and images without the worry of copyright constraints. It's a space where anyone can unleash their creativity and connect with like-minded individuals.
 
 ## Technologies Utilized
 
