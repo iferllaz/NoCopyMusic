@@ -9,7 +9,7 @@ NoCopyMusic is a dedicated platform for artists and creators to freely share and
 - PHP
 - HTML
 - CSS
-- MongoDB
+- MongoDB / SQL
 
 ## Project Description
 
